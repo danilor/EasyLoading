@@ -15,7 +15,7 @@ export interface ConfigType {
     id?: string;
     textId?: string;
     extraClass?: string;
-    loadingType?: string;
+    loadingType?: 'facebook' | 'heart' | 'spinner';
     styleId?: string;
     color?: string;
     backgroundColor?: string;
