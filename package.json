@@ -1,0 +1,74 @@
+{
+  "name": "easyloading",
+  "version": "0.1.0",
+  "description": "An easy loading library",
+  "main": "dist/easyloading.cjs.js",
+  "module": "dist/easyloading.es.js",
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "sideEffects": false,
+  "typings": "typings/EasyLoading.d.ts",
+
+  "devDependencies": {
+    "@evilmartians/lefthook": "1.7.15",
+    "@rollup/plugin-commonjs": "26.0.1",
+    "@rollup/plugin-json": "6.1.0",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-terser": "0.4.4",
+    "@rollup/plugin-typescript": "11.1.6",
+    "karma": "6.4.4",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-cli": "2.0.0",
+    "karma-mocha": "2.0.1",
+    "karma-sauce-launcher": "4.3.6",
+    "karma-typescript": "5.5.4",
+    "karma-typescript-es6-transform": "5.5.4",
+    "mocha": "9.2.2",
+    "npm-run-all2": "6.2.3",
+    "prettier": "3.3.3",
+    "rollup": "3.29.4",
+    "should": "13.2.3",
+    "ts-node": "10.9.2",
+    "tslint": "6.1.3",
+    "tslint-config-prettier": "1.18.0",
+    "typedoc": "0.26.7",
+    "typescript": "5.5.4",
+    "uuid": "9.0.1"
+  },
+  "scripts": {
+    "prettier": "prettier --write **/*.{ts,js,css,md}",
+    "build": "rollup -c && tsc --emitDeclarationOnly -p ./tsconfig.json -d --declarationDir ./typings",
+    "prepublish": "npm run build",
+    "version": "conventional-changelog -i CHANGELOG.md -s && npm run docs && git add docs CHANGELOG.md",
+    "start": "http-server -a localhost -p 8000 -o --cors -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danilor/EasyLoading"
+  },
+  "keywords": [
+    "loading",
+    "library",
+    "js",
+    "TypeScript",
+    "module",
+    "rollup"
+  ],
+  "author": "Danilo Ramirez Mattey",
+  "contributors": [
+    "Danilo Ramirez mattey"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/danilor/EasyLoading/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "homepage": "https://github.com/danilor/EasyLoading"
+}
