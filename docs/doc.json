@@ -1,0 +1,742 @@
+{
+	"id": 0,
+	"name": "easyloading",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 13,
+			"name": "EasyLoading",
+			"variant": "declaration",
+			"kind": 128,
+			"flags": {},
+			"children": [
+				{
+					"id": 14,
+					"name": "constructor",
+					"variant": "declaration",
+					"kind": 512,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 282,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L282"
+						}
+					],
+					"signatures": [
+						{
+							"id": 15,
+							"name": "new EasyLoading",
+							"variant": "signature",
+							"kind": 16384,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "EasyLoading.ts",
+									"line": 282,
+									"character": 2,
+									"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L282"
+								}
+							],
+							"parameters": [
+								{
+									"id": 16,
+									"name": "config",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 1,
+										"name": "ConfigType",
+										"package": "easyloading"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 13,
+								"name": "EasyLoading",
+								"package": "easyloading"
+							}
+						}
+					]
+				},
+				{
+					"id": 30,
+					"name": "hide",
+					"variant": "declaration",
+					"kind": 2048,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 354,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L354"
+						}
+					],
+					"signatures": [
+						{
+							"id": 31,
+							"name": "hide",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Hides the loading element"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "EasyLoading.ts",
+									"line": 354,
+									"character": 2,
+									"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L354"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 20,
+					"name": "setConfig",
+					"variant": "declaration",
+					"kind": 2048,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 295,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L295"
+						}
+					],
+					"signatures": [
+						{
+							"id": 21,
+							"name": "setConfig",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Sets the configuration"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "EasyLoading.ts",
+									"line": 295,
+									"character": 2,
+									"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L295"
+								}
+							],
+							"parameters": [
+								{
+									"id": 22,
+									"name": "config",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 1,
+										"name": "ConfigType",
+										"package": "easyloading"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 27,
+					"name": "show",
+					"variant": "declaration",
+					"kind": 2048,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 341,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L341"
+						}
+					],
+					"signatures": [
+						{
+							"id": 28,
+							"name": "show",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Shows the loading element"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "EasyLoading.ts",
+									"line": 341,
+									"character": 2,
+									"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L341"
+								}
+							],
+							"parameters": [
+								{
+									"id": 29,
+									"name": "text",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"defaultValue": "\"\""
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"children": [
+						14
+					]
+				},
+				{
+					"title": "Methods",
+					"children": [
+						30,
+						20,
+						27
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "EasyLoading.ts",
+					"line": 30,
+					"character": 13,
+					"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L30"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "ConfigElementsType",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 12,
+					"name": "html",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 27,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L27"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 11,
+					"name": "style",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 26,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L26"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						12,
+						11
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "EasyLoading.ts",
+					"line": 25,
+					"character": 17,
+					"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L25"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "ConfigType",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Easy Loading class\n EasyLoading"
+					}
+				],
+				"blockTags": [
+					{
+						"tag": "@param",
+						"name": "config",
+						"content": [
+							{
+								"kind": "text",
+								"text": "Configuration object"
+							}
+						]
+					},
+					{
+						"tag": "@param",
+						"name": "config.text",
+						"content": [
+							{
+								"kind": "text",
+								"text": "Text to display"
+							}
+						]
+					},
+					{
+						"tag": "@param",
+						"name": "config.id",
+						"content": [
+							{
+								"kind": "text",
+								"text": "Id of the loading element"
+							}
+						]
+					},
+					{
+						"tag": "@param",
+						"name": "config.extraClass",
+						"content": [
+							{
+								"kind": "text",
+								"text": "Extra class to add to the loading element"
+							}
+						]
+					},
+					{
+						"tag": "@param",
+						"name": "config.loadingType",
+						"content": [
+							{
+								"kind": "text",
+								"text": "Type of loading element"
+							}
+						]
+					},
+					{
+						"tag": "@param",
+						"name": "config.styleId",
+						"content": [
+							{
+								"kind": "text",
+								"text": "Id of the style element"
+							}
+						]
+					},
+					{
+						"tag": "@param",
+						"name": "config.color",
+						"content": [
+							{
+								"kind": "text",
+								"text": "Color of the loading element. Default to #FFFFFF"
+							}
+						]
+					},
+					{
+						"tag": "@param",
+						"name": "config.backgroundColor",
+						"content": [
+							{
+								"kind": "text",
+								"text": "Background color of the loading element. Default to rgba(0, 0, 0, 0.7)"
+							}
+						]
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 9,
+					"name": "backgroundColor",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 22,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L22"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 8,
+					"name": "color",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 21,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L21"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 5,
+					"name": "extraClass",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 18,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L18"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 3,
+					"name": "id",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 16,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L16"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 6,
+					"name": "loadingType",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 19,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L19"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 7,
+					"name": "styleId",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 20,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L20"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 2,
+					"name": "text",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 15,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L15"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 4,
+					"name": "textId",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "EasyLoading.ts",
+							"line": 17,
+							"character": 2,
+							"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L17"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						9,
+						8,
+						5,
+						3,
+						6,
+						7,
+						2,
+						4
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "EasyLoading.ts",
+					"line": 14,
+					"character": 17,
+					"url": "https://github.com/danilor/EasyLoading/blob/dd0334d850662dd57420bee4e4372d0da384b922/src/EasyLoading.ts#L14"
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Classes",
+			"children": [
+				13
+			]
+		},
+		{
+			"title": "Interfaces",
+			"children": [
+				10,
+				1
+			]
+		}
+	],
+	"packageName": "easyloading",
+	"readme": [
+		{
+			"kind": "text",
+			"text": "# EasyLoading\n\nAn Easy Loading Library."
+		}
+	],
+	"symbolIdMap": {
+		"0": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": ""
+		},
+		"1": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigType"
+		},
+		"2": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigType.text"
+		},
+		"3": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigType.id"
+		},
+		"4": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigType.textId"
+		},
+		"5": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigType.extraClass"
+		},
+		"6": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigType.loadingType"
+		},
+		"7": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigType.styleId"
+		},
+		"8": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigType.color"
+		},
+		"9": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigType.backgroundColor"
+		},
+		"10": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigElementsType"
+		},
+		"11": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigElementsType.style"
+		},
+		"12": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "ConfigElementsType.html"
+		},
+		"13": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "EasyLoading"
+		},
+		"14": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "EasyLoading.__constructor"
+		},
+		"15": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "EasyLoading"
+		},
+		"16": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "config"
+		},
+		"20": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "EasyLoading.setConfig"
+		},
+		"21": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "EasyLoading.setConfig"
+		},
+		"22": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "config"
+		},
+		"27": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "EasyLoading.show"
+		},
+		"28": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "EasyLoading.show"
+		},
+		"29": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "text"
+		},
+		"30": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "EasyLoading.hide"
+		},
+		"31": {
+			"sourceFileName": "src/EasyLoading.ts",
+			"qualifiedName": "EasyLoading.hide"
+		}
+	},
+	"files": {
+		"entries": {
+			"1": "src/EasyLoading.ts"
+		},
+		"reflections": {
+			"1": 0
+		}
+	}
+}

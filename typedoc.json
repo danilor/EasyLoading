@@ -1,0 +1,9 @@
+{
+  "entryPoints": [
+    "src/EasyLoading.ts"
+  ],
+  "out": "docs",
+  "entryPointStrategy": "expand",
+  "json": "docs/doc.json",
+  "pretty": true
+}

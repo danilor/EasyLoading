@@ -1,10 +1,25 @@
+/**
+ * Easy Loading class
+ * @class EasyLoading
+ * @param {Object} config - Configuration object
+ * @param {String} config.text - Text to display
+ * @param {String} config.id - Id of the loading element
+ * @param {String} config.extraClass - Extra class to add to the loading element
+ * @param {String} config.loadingType - Type of loading element
+ * @param {String} config.styleId - Id of the style element
+ * @param {String} config.color - Color of the loading element. Default to #FFFFFF
+ * @param {String} config.backgroundColor - Background color of the loading element. Default to rgba(0, 0, 0, 0.7)
+ */
+
 export interface ConfigType {
   text?: string;
   id?: string;
   textId?: string;
   extraClass?: string;
-  loadingType?: string;
+  loadingType?: 'facebook' | 'heart' | 'spinner';
   styleId?: string;
+  color?: string;
+  backgroundColor?: string;
 }
 
 export interface ConfigElementsType {
@@ -23,6 +38,8 @@ export class EasyLoading {
     extraClass: "_easyLoadingCustomClass",
     loadingType: "facebook",
     styleId: "_easy-loading-style",
+    color: "#FFFFFF",
+    backgroundColor: "rgba(0, 0, 0, 0.7)",
   };
 
   #generalStyles: string = `
@@ -33,7 +50,7 @@ export class EasyLoading {
                 align-items: center;
                 overflow: hidden;
                 flex-direction: column;
-                background-color: rgba(0, 0, 0, 0.7);
+                background-color: [BCOLOR];
                 position: fixed;
                 z-index: 9999;
                 top: 0;
@@ -46,7 +63,7 @@ export class EasyLoading {
         
         ._easy-loading p {
             font-family: Arial, sans-serif;
-            color: white;
+            color: [COLOR];
         }
     `;
 
@@ -58,7 +75,7 @@ export class EasyLoading {
       style: `
                 .lds-facebook {
                   /* change color here */
-                  color: white
+                  color: [COLOR]
                 }
                 .lds-facebook,
                 .lds-facebook div {
@@ -106,7 +123,7 @@ export class EasyLoading {
     heart: {
       style: `
                 .lds-heart {
-                  color: white
+                  color: [COLOR]
                 }
                 .lds-heart,
                 .lds-heart div,
@@ -174,7 +191,7 @@ export class EasyLoading {
       style: `
             .lds-spinner {
               /* change color here */
-              color: white
+              color: [COLOR]
             }
             .lds-spinner,
             .lds-spinner div,
@@ -313,7 +330,7 @@ export class EasyLoading {
       document.body.insertAdjacentHTML("afterend", div.outerHTML);
       document.body.insertAdjacentHTML(
         "afterend",
-        `<style id="${this.#config.styleId}">${this.#generalStyles} ${this.#loadingOptions[this.#config.loadingType].style}</style>`,
+        `<style id="${this.#config.styleId}">${this.#generalStyles.replace('[COLOR]',this.#config.color).replace('[BCOLOR]',this.#config.backgroundColor)} ${this.#loadingOptions[this.#config.loadingType].style.replace('[COLOR]',this.#config.color)}</style>`,
       );
     }
   }
