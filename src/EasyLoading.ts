@@ -5,7 +5,7 @@
  * @param {String} config.text - Text to display
  * @param {String} config.id - Id of the loading element
  * @param {String} config.extraClass - Extra class to add to the loading element
- * @param {String} config.loadingType - Type of loading element
+ * @param {String} config.loadingType - Type of loading element. Default to facebook. Options: facebook, heart, spinner, ripple
  * @param {String} config.styleId - Id of the style element
  * @param {String} config.color - Color of the loading element. Default to #FFFFFF
  * @param {String} config.backgroundColor - Background color of the loading element. Default to rgba(0, 0, 0, 0.7)
@@ -16,7 +16,7 @@ export interface ConfigType {
   id?: string;
   textId?: string;
   extraClass?: string;
-  loadingType?: 'facebook' | 'heart' | 'spinner';
+  loadingType?: 'facebook' | 'heart' | 'spinner | ripple';
   styleId?: string;
   color?: string;
   backgroundColor?: string;
@@ -277,6 +277,63 @@ export class EasyLoading {
             }`,
       html: `<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>`,
     },
+    ripple:{
+      style: `.lds-ripple {
+  /* change color here */
+  color: [COLOR]
+}
+.lds-ripple,
+.lds-ripple div {
+  box-sizing: border-box;
+}
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid currentColor;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+  }
+  4.9% {
+    top: 36px;
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+  }
+  5% {
+    top: 36px;
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+  }
+}`,
+      html: `<div class="lds-ripple"><div></div><div></div></div>`
+    }
   };
 
   constructor(config: ConfigType | null | undefined) {

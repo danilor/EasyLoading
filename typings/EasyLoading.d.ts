@@ -5,7 +5,7 @@
  * @param {String} config.text - Text to display
  * @param {String} config.id - Id of the loading element
  * @param {String} config.extraClass - Extra class to add to the loading element
- * @param {String} config.loadingType - Type of loading element
+ * @param {String} config.loadingType - Type of loading element. Default to facebook. Options: facebook, heart, spinner, ripple
  * @param {String} config.styleId - Id of the style element
  * @param {String} config.color - Color of the loading element. Default to #FFFFFF
  * @param {String} config.backgroundColor - Background color of the loading element. Default to rgba(0, 0, 0, 0.7)
@@ -15,7 +15,7 @@ export interface ConfigType {
     id?: string;
     textId?: string;
     extraClass?: string;
-    loadingType?: 'facebook' | 'heart' | 'spinner';
+    loadingType?: 'facebook' | 'heart' | 'spinner | ripple';
     styleId?: string;
     color?: string;
     backgroundColor?: string;

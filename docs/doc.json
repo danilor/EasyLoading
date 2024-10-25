@@ -21,9 +21,9 @@
 					"sources": [
 						{
 							"fileName": "EasyLoading.ts",
-							"line": 282,
+							"line": 339,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L282"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L339"
 						}
 					],
 					"signatures": [
@@ -36,9 +36,9 @@
 							"sources": [
 								{
 									"fileName": "EasyLoading.ts",
-									"line": 282,
+									"line": 339,
 									"character": 2,
-									"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L282"
+									"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L339"
 								}
 							],
 							"parameters": [
@@ -74,9 +74,9 @@
 					"sources": [
 						{
 							"fileName": "EasyLoading.ts",
-							"line": 354,
+							"line": 411,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L354"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L411"
 						}
 					],
 					"signatures": [
@@ -97,9 +97,9 @@
 							"sources": [
 								{
 									"fileName": "EasyLoading.ts",
-									"line": 354,
+									"line": 411,
 									"character": 2,
-									"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L354"
+									"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L411"
 								}
 							],
 							"type": {
@@ -118,9 +118,9 @@
 					"sources": [
 						{
 							"fileName": "EasyLoading.ts",
-							"line": 295,
+							"line": 352,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L295"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L352"
 						}
 					],
 					"signatures": [
@@ -141,9 +141,9 @@
 							"sources": [
 								{
 									"fileName": "EasyLoading.ts",
-									"line": 295,
+									"line": 352,
 									"character": 2,
-									"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L295"
+									"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L352"
 								}
 							],
 							"parameters": [
@@ -177,9 +177,9 @@
 					"sources": [
 						{
 							"fileName": "EasyLoading.ts",
-							"line": 341,
+							"line": 398,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L341"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L398"
 						}
 					],
 					"signatures": [
@@ -200,9 +200,9 @@
 							"sources": [
 								{
 									"fileName": "EasyLoading.ts",
-									"line": 341,
+									"line": 398,
 									"character": 2,
-									"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L341"
+									"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L398"
 								}
 							],
 							"parameters": [
@@ -248,7 +248,7 @@
 					"fileName": "EasyLoading.ts",
 					"line": 30,
 					"character": 13,
-					"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L30"
+					"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L30"
 				}
 			]
 		},
@@ -270,7 +270,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 27,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L27"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L27"
 						}
 					],
 					"type": {
@@ -289,7 +289,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 26,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L26"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L26"
 						}
 					],
 					"type": {
@@ -312,7 +312,7 @@
 					"fileName": "EasyLoading.ts",
 					"line": 25,
 					"character": 17,
-					"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L25"
+					"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L25"
 				}
 			]
 		},
@@ -376,7 +376,7 @@
 						"content": [
 							{
 								"kind": "text",
-								"text": "Type of loading element"
+								"text": "Type of loading element. Default to facebook. Options: facebook, heart, spinner, ripple"
 							}
 						]
 					},
@@ -426,7 +426,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 22,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L22"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L22"
 						}
 					],
 					"type": {
@@ -447,7 +447,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 21,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L21"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L21"
 						}
 					],
 					"type": {
@@ -468,7 +468,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 18,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L18"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L18"
 						}
 					],
 					"type": {
@@ -489,7 +489,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 16,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L16"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L16"
 						}
 					],
 					"type": {
@@ -510,7 +510,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 19,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L19"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L19"
 						}
 					],
 					"type": {
@@ -526,7 +526,7 @@
 							},
 							{
 								"type": "literal",
-								"value": "spinner"
+								"value": "spinner | ripple"
 							}
 						]
 					}
@@ -544,7 +544,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 20,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L20"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L20"
 						}
 					],
 					"type": {
@@ -565,7 +565,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 15,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L15"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L15"
 						}
 					],
 					"type": {
@@ -586,7 +586,7 @@
 							"fileName": "EasyLoading.ts",
 							"line": 17,
 							"character": 2,
-							"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L17"
+							"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L17"
 						}
 					],
 					"type": {
@@ -615,7 +615,7 @@
 					"fileName": "EasyLoading.ts",
 					"line": 14,
 					"character": 17,
-					"url": "https://github.com/danilor/EasyLoading/blob/485eccbc6c486fdc9293b45f5c71fd3782f45ca8/src/EasyLoading.ts#L14"
+					"url": "https://github.com/danilor/EasyLoading/blob/e8bde826fb04e5a13f858a11c3a38324dea6c113/src/EasyLoading.ts#L14"
 				}
 			]
 		}
